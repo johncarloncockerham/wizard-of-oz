@@ -1,0 +1,42 @@
+/*Main stylesheet for Wizard of Oz website.*/
+html {
+  font-family: "Calibri","Arial","Helvetica",sans-serif;
+}
+
+/*
+oh man, this is a long comment.
+*/
+
+p {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+a {
+  color: yellow;
+}
+
+a:hover {
+  text-decoration:underline;
+  text-decoration-color: #789874;
+  color: #789874;
+}
+
+section, aside {
+  float: left;
+  a {
+    color:red;
+  }
+}
+
+section {
+  width: 30%;
+}
+
+aside {
+  width:30%;
+}
+
+img {
+  width: 100%;
+}
